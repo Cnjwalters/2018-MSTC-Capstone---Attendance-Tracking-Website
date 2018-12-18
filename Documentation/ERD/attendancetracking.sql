@@ -90,9 +90,7 @@ CREATE TABLE `userinfo` (
   `lastName` varchar(50) NOT NULL,
   `password` varchar(128) NOT NULL,
   `confirmation` int(1) NOT NULL,
-  `email` varchar(62) NOT NULL,
-  `securityQuestion` varchar(120) DEFAULT NULL,
-  `securityQuestionAnswer` varchar(120) DEFAULT NULL
+  `email` varchar(62) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
