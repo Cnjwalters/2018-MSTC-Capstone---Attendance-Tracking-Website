@@ -183,62 +183,6 @@ mysqli_close($dbc);
                                value="<?php if (!empty($username)) echo $username; ?>" required>
                     </div>
                 </div>
-<<<<<<< HEAD
-                <div class="form-group">
-                    <label class="control-label col-sm-2" for="employeeId">Employee ID:</label><span
-                            class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="top"
-                            title="Employee ID must be 8 numeric characters."></span>
-                    <div class="col-sm-10">
-                        <input type="number" size="8" class="form-control" id="employeeId" placeholder="Employee ID"
-                               name="employeeId" value="<?php if (!empty($employeeId)) echo $employeeId; ?>" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-2" for="firstName">First Name:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="firstName" placeholder="First Name" name="firstName"
-                               value="<?php if (!empty($firstName)) echo $firstName; ?>" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-2" for="lastName">Last Name:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="lastName" placeholder="Last Name" name="lastName"
-                               value="<?php if (!empty($lastName)) echo $lastName; ?>" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-2" for="email">Email Address:</label><span
-                            class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="top"
-                            title="Offical MSTC instructor email only."></span>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email" placeholder="john.doe@mstc.edu" name="email"
-                               value="<?php if (!empty($email)) echo $email; ?>" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-2" for="password1">Password:</label>
-                    <div class="col-sm-10">
-                        <input type="password" class="form-control" id="password1" placeholder="Enter password"
-                               name="password1" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-2" for="password2">Re-Enter Password:</label>
-                    <div class="col-sm-10">
-                        <input type="password" class="form-control" id="password2" placeholder="Re Enter password"
-                               name="password2" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" name="submit" class="btn btn-default" <?php if ($disable == 'true') {
-                            echo 'disabled';
-                        } ?>>Create Account
-                        </button>
-                        <br/><br/>
-                    </div>
-=======
             </div>
             <!-- Employee ID -->
             <div class="form-group">
@@ -293,19 +237,13 @@ mysqli_close($dbc);
                 <div class="col-sm-offset-2 col-sm-10">
                     <button type="submit" name="submit" class="btn btn-default" <?php if ($disable =='true'){echo 'disabled';}?>>Create Account</button>
                     <br /><br />
->>>>>>> atp-151
                 </div>
             </form>
             <a href="login.php" style="color: dodgerblue;">Already have an account? Click here to login.</a>
         </div>
     </div>
 </div>
-<<<<<<< HEAD
-
-=======
-</div>
 <!-- Script to show tool tip. -->
->>>>>>> atp-151
 <script>
     $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
